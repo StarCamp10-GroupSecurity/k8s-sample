@@ -15,7 +15,7 @@ spec:
         app: webserver-deploy
     spec:
       containers:
-      - image: raifehizlan/webserver #I deleted the image from deckerhub
+      - image: heyyytamvo/cyberdevops:web
         name: webserver
         ports:
         - containerPort: 80

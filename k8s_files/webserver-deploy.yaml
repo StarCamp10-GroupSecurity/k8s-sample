@@ -18,7 +18,7 @@ spec:
       - image: heyyytamvo/cyberdevops:web
         name: webserver
         ports:
-        - containerPort: 80
+        - containerPort: 5000
         envFrom:
         - configMapRef:
             name: server-config
